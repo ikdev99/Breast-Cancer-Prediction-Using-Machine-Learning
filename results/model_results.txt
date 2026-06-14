@@ -1,0 +1,53 @@
+=== Logistic Regression ===
+Accuracy: 0.9767441860465116
+F1 Score: 0.96875
+ROC-AUC Score: 0.998263888888889
+Confusion Matrix:
+ [[53  1]
+ [ 1 31]]
+
+
+=== Random Forest ===
+Accuracy: 0.9651162790697675
+F1 Score: 0.9523809523809523
+ROC-AUC Score: 0.9953703703703703
+Confusion Matrix:
+ [[53  1]
+ [ 2 30]]
+
+
+=== SVM ===
+Accuracy: 0.9767441860465116
+F1 Score: 0.967741935483871
+ROC-AUC Score: 0.9994212962962963
+Confusion Matrix:
+ [[54  0]
+ [ 2 30]]
+
+
+=== XGBoost ===
+Accuracy: 0.9767441860465116
+F1 Score: 0.96875
+ROC-AUC Score: 0.9971064814814815
+Confusion Matrix:
+ [[53  1]
+ [ 1 31]]
+
+
+=== MLP ===
+Accuracy: 0.9883720930232558
+F1 Score: 0.9841269841269841
+ROC-AUC Score: 0.9994212962962963
+Confusion Matrix:
+ [[54  0]
+ [ 1 31]]
+
+
+
+Model Comparison Table (sorted by ROC-AUC):
+                 Model  Accuracy  F1-Score   ROC-AUC
+2                  SVM  0.976744  0.967742  0.999421
+4                  MLP  0.988372  0.984127  0.999421
+0  Logistic Regression  0.976744  0.968750  0.998264
+3              XGBoost  0.976744  0.968750  0.997106
+1        Random Forest  0.965116  0.952381  0.995370
